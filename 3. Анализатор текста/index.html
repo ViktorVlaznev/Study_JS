@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Анализатор текста</title>
+    <link id="favicon" rel="icon" href="favicon/icons8-форма-ввода-текста-100.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="dist/bundle.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Анализатор текста</h1>
+    </header>
+    <main>
+        <div id="mainpage">
+            <p id='entertext'>Введите текст:</p>
+            <textarea id="textarea" cols="80" rows="10"></textarea>
+        </div>
+        <div id="chaptercheckbox">
+            <label class="label"><input type="checkbox" id="woldCheckbox" class="checkbox">количество слов в
+                тексте</label>
+            <label class="label"><input type="checkbox" id="charCheckbox1" class="checkbox">количество символов в
+                тексте</label>
+            <label class="label"><input type="checkbox" id="charCheckbox2" class="checkbox">количество символов в тексте
+                без
+                пробелов</label>
+            <label class="label"><input type="checkbox" id="percentCheckbox" class="checkbox">процентное содержание
+                символа в тексте</label>
+        </div>
+        <input type="button" id="buttonAnalis" value="Анализировать">
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
+        <div id="result4"></div>
+    </main>
+    <footer>
+        <div>Разработано Влазневым В.В.© </div>
+    </footer>
+
+</body>
+
+</html>

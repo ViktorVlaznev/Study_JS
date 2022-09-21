@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #ccd1d7;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: #b0c7e4;
+}
+
+header h1 {
+    margin: 40px auto;
+}
+
+main {
+    width: 1000px;
+    min-height: 600px;
+    background-color: #cddaeb;
+    text-align: center;
+}
+
+footer {
+    height: 40px;
+}
+
+#textarea {
+    margin-top: 30px;
+}
+
+#keyboard {
+    width: 900px;
+    height: 280px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+#functionBlock {
+    display: flex;
+    width: 800px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#mainBlock {
+    margin: 20px;
+    display: flex;
+}
+
+#althanumericBlock {
+    width: 560px;
+    height: 180px;
+    margin: 0px;
+}
+
+#controlBlock {
+    width: 100px;
+    margin-left: 20px;
+}
+
+#controlpadBlock,
+#arrowpadBlock {
+    height: 80px;
+}
+
+#arrowpadBlock {
+    margin-top: 18px;
+}
+
+#numpadBlock {
+    width: 160px;
+    /* margin-left: 20px; */
+}
+
+#esc,
+#buttonFunc14 td,
+#buttonFunc58 td,
+#buttonFunc912 td,
+#buttonFuncEnd td {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+}
+
+#buttonFunc14 td {
+    margin-left: 80px;
+}
+
+#buttonFuncEnd td {
+    font-size: 8px;
+
+}
+
+#buttonFunc912,
+#buttonFunc58,
+#buttonFunc14,
+#buttonFuncEnd {
+    margin-right: 3px;
+}
+
+#althanumericBlock3 td,
+#althanumericBlock1 td,
+#althanumericBlock2 td,
+#althanumericBlock4 td {
+    width: 36px;
+    height: 36px;
+}
+
+#althanumericBlock1,
+#althanumericBlock2,
+#althanumericBlock3,
+#althanumericBlock4,
+#althanumericBlock5 {
+    display: flex;
+}
+
+#backspace {
+    width: 92px;
+    height: 36px;
+}
+
+#tab,
+#slash {
+    width: 64px;
+    height: 36px;
+}
+
+#enter,
+#capslock {
+    width: 82px;
+    height: 36px;
+}
+
+#shiftleft,
+#shiftright {
+    width: 100px;
+    height: 36px;
+}
+
+#althanumericBlock5 td {
+    width: 54px;
+    height: 36px;
+}
+
+#buttonspace {
+    width: 182px;
+    height: 36px;
+}
+
+#arrowpadBlock2 td,
+#buttonup,
+#controlpadBlock td {
+    width: 33px;
+    height: 40px;
+    font-size: 11px;
+}
+
+#buttonup,
+#arrowpadBlock2 td {
+    font-size: 25px;
+}
+
+#buttonup {
+    margin-right: 34px;
+}
+
+#buttonminus,
+#buttondel,
+#buttonpoint,
+#numpadBlock1 td {
+    width: 40px;
+    height: 36px;
+    font-size: 15px;
+}
+
+#buttonnull {
+    width: 80px;
+    height: 36px;
+    margin: 0px;
+}
+
+#numpadBlock2,
+#numpadBlock {
+    display: flex;
+}
+
+#buttondel {
+    margin-left: 0px;
+}
+
+#buttonplus,
+#buttonenternum {
+    width: 40px;
+    height: 72px;
+}
+
+.button {
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+#esc {
+    padding-top: 5px;
+}
+
+#backspace,
+#tab,
+#slash,
+#capslock,
+#enter,
+#shiftleft,
+#shiftright,
+#buttonspace,
+#buttonnull,
+#buttonpoint,
+#buttonminus {
+    padding-top: 8px;
+}
+
+#buttonplus,
+#buttonenternum {
+    padding-top: 25px;
+}

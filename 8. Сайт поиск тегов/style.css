@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #ccd1d7;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: #b0c7e4;
+}
+
+header h1 {
+    margin: 40px auto;
+}
+
+main {
+    width: 1000px;
+    min-height: 600px;
+    background-color: #cddaeb;
+    text-align: center;
+}
+
+footer {
+    height: 40px;
+}
+
+#blockEnter {
+    display: inline-flex;
+    padding-top: 30px;
+}
+
+#textEnter,
+#inputEnter {
+    margin-right: 10px;
+}
+
+#blockDescription {
+    margin-top: 30px;
+    width: 600px;
+    text-align: left;
+}

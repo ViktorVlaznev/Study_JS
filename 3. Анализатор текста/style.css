@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #ccd1d7;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: #b0c7e4;
+}
+
+header h1 {
+    margin: 40px auto;
+}
+
+main {
+    width: 1000px;
+    min-height: 600px;
+    background-color: #cddaeb;
+    text-align: center;
+}
+
+#result1,
+#result2,
+#result3,
+#result4 {
+    width: 400px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer {
+    height: 40px;
+}
+
+#entertext {
+    padding: 10px 0px;
+}
+
+#chaptercheckbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    padding-left: 100px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+
+.label {
+    margin-left: 200px;
+}

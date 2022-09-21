@@ -1,0 +1,1 @@
+(()=>{let e=document.querySelector("#parent"),t=document.querySelectorAll(".menu a"),c=document.querySelectorAll(".tab");for(let a=0;a<t.length;a++)t[a].addEventListener("click",(()=>{e.querySelector(".menu a.active").classList.remove("active"),e.querySelector(".tab.active").classList.remove("active"),c[a].classList.add("active"),t[a].classList.add("active")}))})();

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Экранная клавиатура</title>
+    <link id="favicon" rel="icon" href="favicon/icons8-клавиатура-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="dist/bundle.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Экранная клавиатура</h1>
+    </header>
+    <main>
+        <textarea id="textarea" cols="80" rows="10"></textarea>
+
+        <div id="keyboard">
+            <div id="functionBlock">
+                <div id="esc"></div>
+                <div id="buttonFunc14"></div>
+                <div id="buttonFunc58"></div>
+                <div id="buttonFunc912"></div>
+                <div id="buttonFuncEnd"></div>
+                <label><input type="checkbox" disabled id="checkboxCapsLock">CapsLock</label>
+                <label><input type="checkbox" disabled id="checkboxNumLock">NumLock</label>
+            </div>
+            <div id="mainBlock">
+                <div id="althanumericBlock">
+                    <div id="althanumericBlock1"></div>
+                    <div id="althanumericBlock2"></div>
+                    <div id="althanumericBlock3"></div>
+                    <div id="althanumericBlock4"></div>
+                    <div id="althanumericBlock5"></div>
+                </div>
+                <div id="controlBlock">
+                    <div id="controlpadBlock"></div>
+                    <div id="arrowpadBlock">
+                        <div id="arrowpadBlock1"></div>
+                        <div id="arrowpadBlock2"></div>
+                    </div>
+                </div>
+                <div id="numpadBlock">
+                    <div id="numpadBlock12">
+                        <div id="numpadBlock1"></div>
+                        <div id="numpadBlock2"></div>
+                    </div>
+                    <div id="numpadBlock3"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <div>Разработано Влазневым В.В.© </div>
+    </footer>
+
+</body>
+
+</html>

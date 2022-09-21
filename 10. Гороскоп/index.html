@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Гороскоп</title>
+    <link id="favicon" rel="icon" href="favicon/zodiak.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="dist/bundle.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Гороскоп</h1>
+    </header>
+    <main>
+        <div id="parent">
+            <p id="textEnter">Введите дату рождения и нажмите Enter</p>
+            <input type="date" id="inputBirthday">
+            <label><input type="radio" id="radioToday" name="elem" value="1" checked>Сегодня</label>
+            <label><input type="radio" id="radioTomorrow" name="elem" value="2">Завтра</label>
+            <label><input type="radio" id="radioAfterTomorrow" name="elem" value="3">Послезавтра</label>
+            <input type="button" value="Enter" id="buttonEnter">
+        </div>
+        <div id="horoscopeDescription"></div>
+    </main>
+    <footer>
+        <div>Разработано Влазневым В.В.© </div>
+    </footer>
+</body>
+
+</html>

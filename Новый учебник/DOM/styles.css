@@ -1,0 +1,9 @@
+.colored {
+	color: red;
+}
+.cross {
+	text-decoration-line: line-through;
+}
+.bold {
+	font-weight: bold;
+}

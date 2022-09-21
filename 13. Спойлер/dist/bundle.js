@@ -1,0 +1,1 @@
+(()=>{let e=document.querySelectorAll(".spoiler"),l=document.querySelectorAll(".toggle");for(let t=0;t<e.length;t++)l[t].addEventListener("click",(()=>e[t].classList.toggle("active")))})();

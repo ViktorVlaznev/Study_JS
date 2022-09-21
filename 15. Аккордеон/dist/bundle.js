@@ -1,0 +1,1 @@
+(()=>{let e=document.querySelector("#parent"),t=e.querySelectorAll(".tab .link a");for(let l of t)l.addEventListener("click",(function(t){let c=e.querySelector(".tab.active");c&&c.classList.remove("active");let a=l.closest(".tab");a!==c&&a.classList.add("active")}))})();

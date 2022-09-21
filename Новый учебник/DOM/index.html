@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Я крут</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h3>Задача 1. Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в конец текста абзаца.</h3>
+
+    <input type="text" id="input1" value=" ">
+    <p id="paragraph1">Некоторый текст...</p>
+
+    <h3>Задача 2. Дано несколько инпутов, абзац и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и
+        запишите их сумму в абзац.</h3>
+
+    <input type="number" class="input2">
+    <input type="number" class="input2">
+    <input type="number" class="input2">
+    <input type="button" id="button2" value="Сложить!">
+    <input type="button" id="button2_1" value="Очистить">
+    <p id="paragraph2"><b>Сумма чисел равна:</b></p>
+
+    <h3>Задача 3. Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр этого числа.</h3>
+
+    <input type="number" id="input3">
+    <p id="paragraph3"><b>Сумма цифр числа </b></p>
+
+    <h3>Задача 4. Дан инпут. В него вводятся числа через запятую. По потери фокуса найдите среднее арифметическое этих
+        чисел (сумма делить на количество).</h3>
+
+    <input type="text" id="input4">
+    <p id="paragraph4"><b>Среднее арифметическое чисел </b></p>
+
+    <h3>Задача 5. Даны 4 инпута. В первый инпут вводится ФИО через пробел. По потери фокуса запишите фамилию, имя и
+        отчество в остальные 3 инпута.</h3>
+
+    <input type="text" id="input5">
+    <input type="text" class="input51">
+    <input type="text" class="input51">
+    <input type="text" class="input51">
+
+    <h3>Задача 6. Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы. Сделайте так, чтобы по
+        потери фокуса инпутом, введенные фамилия, имя и отчество автоматически стали записанными с большой буквы (в этом
+        же инпуте).</h3>
+
+    <input type="text" id="input6">
+
+    <h3>Задача 7. Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте.</h3>
+
+    <input type="text" id="input7">
+    <p id="paragraph7"><b>Количество слов равно </b></p>
+
+    <h3>Задача 8. Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса в этом же инпуте поставьте эту
+        дату в формате 2016-12-31.</h3>
+
+    <input type="date" id="input8">
+
+    <h3>Задача 9. Дан инпут. В него вводится слово. По нажатию на кнопку проверьте то, что это слово читается с начала и
+        с конца одинаково (например, мадам).</h3>
+
+    <input type="text" id="input9">
+    <input type="button" id="button9" value="Проверить!">
+    <p id="paragraph9"><b></b></p>
+
+    <h3>Задача 10. Дан инпут. В него вводится число. Проверьте по потери фокуса, что это число содержит внутри себя
+        цифру 3.</h3>
+
+    <input type="number" id="input10">
+    <p id="paragraph10"></p>
+
+    <h3>Задача 11. Даны несколько абзацев и кнопка. По нажатию на кнопку запишите в конец каждого абзаца его порядковый
+        номер.</h3>
+
+    <p class="paragraph11">text</p>
+    <p class="paragraph11">text</p>
+    <p class="paragraph11">text</p>
+
+    <input type="button" id="button11" value="Пересчитать!">
+
+    <h3>Задача 12. Даны ссылки. Добавьте в конец каждой ссылки ее href в круглых скобках.</h3>
+
+    <a class="link12" href="1">Ссылка</a><br>
+    <a class="link12" href="http://2">Ссылка</a><br>
+    <a class="link12" href="http://3">Ссылка</a><br>
+    <a class="link12" href="http://4">Ссылка</a><br>
+    <a class="link12" href="http://5">Ссылка</a><br><br>
+
+    <input type="button" id="button12" value="Добавить!">
+
+    <h3>Задача 13. Даны ссылки. Если ссылка начинается с http://, то добавьте ей в конец стрелку → (делается
+        так:'&rarr';').</h3>
+
+    <a class="link13" href="https://1">Ссылка</a><br>
+    <a class="link13" href="http://2">Ссылка</a><br>
+    <a class="link13" href="https://3">Ссылка</a><br>
+    <a class="link13" href="http://4">Ссылка</a><br>
+    <a class="link13" href="https:/5">Ссылка</a><br><br>
+
+    <input type="button" id="button13" value="Добавить!">
+
+    <h3>Задача 14. Даны несколько абзацев с числами. По нажатию на любой абзац запишите в него квадрат числа, которое в
+        нем находится.</h3>
+
+    <p class="paragraph14">6</p>
+    <p class="paragraph14">2</p>
+    <p class="paragraph14">3</p>
+    <p class="paragraph14">4</p>
+    <p class="paragraph14">5</p>
+
+    <h3>Задача 15. Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса узнайте день недели (словом),
+        который приходится на эту дату.</h3>
+
+    <input type="date" name="" id="date15">
+
+    <p id="paragraph15"></p>
+
+    <h3>Задача 16. Дан инпут. Реализуйте кнопочки +1, -1, которые будут увеличивать или уменьшать на 1 значение инпута.
+        Сделайте так, чтобы это значение не могло стать меньше нуля.</h3>
+
+    <input type="number" id="input16"><br><br>
+    <input type="button" id="button16plus" value="Увеличить!">
+    <input type="button" id="button16minus" value="Уменьшить!">
+
+    <h3>Задача 17. Дан инпут. Даны абзацы. Пусть в этот инпут записывается суммарное количество нажатий по этим абзацам.
+    </h3>
+
+    <input type="number" id="input17">
+
+    <p class="paragraph17">text1</p>
+    <p class="paragraph17">text2</p>
+    <p class="paragraph17">text3</p>
+    <p class="paragraph17">text4</p>
+    <p class="paragraph17">text5</p>
+
+    <h3>Задача 18. На странице есть дивы. В них есть текст. Обойдите все дивы и обрежьте тот текст, который в них стоит
+        так, чтобы он стал длиной 10 символов. И добавьте троеточие в конец обрезанного текста</h3>
+
+    <div class="div18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reprehenderit optio consequuntur
+        culpa dolorum a
+        veritatis numquam. Eligendi illum libero quidem, quibusdam deleniti minus ex, perferendis cumque ipsam
+        laboriosam officiis.</div>
+    <div class="div18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum neque nesciunt iusto sunt aperiam
+        itaque,
+        maxime blanditiis eveniet at rem, corporis dolorum sed minus, esse est ipsum repudiandae? Alias, non.</div>
+    <div class="div18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci quis sapiente
+        dicta veniam.
+        Aspernatur atque quae exercitationem culpa laudantium voluptatum beatae in rerum! Consequatur repellat nisi
+        exercitationem ipsa impedit?</div>
+    <div class="div18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae itaque illum facere est
+        odio, qui sint
+        deserunt, enim neque doloribus consectetur. Quibusdam iusto nostrum minima culpa soluta odio sunt.</div>
+    <div class="div18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid neque incidunt consectetur vero.
+        Nulla animi
+        laboriosam distinctio ex? Magnam beatae eius quis, omnis soluta dolores illum tempore eos fugiat aliquid!</div>
+
+    <input type="button" id="button18" value="Обрезать/Показать!">
+
+    <h3>Задача 19. Дан инпут. В него вводится число. По потери фокуса проверьте, что в нем лежит число от 1 до 100. Если
+        это так - покрасьте инпут в зеленый цвет, а если не так - в красный.</h3>
+
+    <input type="number" id="input19">
+
+    <h3> Задача 20. Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и запишите в
+        инпут.</h3>
+
+    <input type="text" id="input20">
+    <input type="button" id="button20" value="Сгенерировать!">
+
+    <h3> Задача 21. Дан инпут и кнопка. Пользователь вводит в инпут какую-то строку. По нажатию на кнопку перемешайте
+        введенные символы случайным образом и запишите ее обратно в инпут.</h3>
+
+    <input type="text" id="input21">
+    <input type="button" id="button21" value="Перемешать!">
+
+    <h3>Задача 22. Дан инпут, кнопка и абзац. В инпут вводится температура в градусах Фаренгейта. По клику на кнопку
+        выведите в абзац температуру в градусах Цельсия.</h3>
+
+    <input type="number" id="input22">
+    <input type="button" id="button22" value="В Фаренгейты!">
+    <p id="paragraph22"></p>
+
+    <h3>Задача 23. Дан инпут, кнопка и абзац. В инпут вводится число. По нажатию на кнопку выведите в абзац факториал
+        этого числа.
+    </h3>
+
+    <input type="number" id="input23">
+    <input type="button" id="button23" value="Факториал!">
+    <p id="paragraph23"></p>
+
+    <h3>Задача 24. Даны 3 инпута, кнопка и абзац. В инпуты вводятся коэффициенты квадратного уравнения. По нажатию на
+        кнопку найдите корни этого уравнения и выведите их в абзац.</h3>
+
+    <input type="number" id="input24a">
+    <input type="number" id="input24b">
+    <input type="number" id="input24c">
+    <input type="button" id="button24" value="Решить!">
+    <p id="paragraph24"></p>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

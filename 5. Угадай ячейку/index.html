@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Угадай ячейку</title>
+    <link id="favicon" rel="icon" href="favicon/icons8-спецификация-24.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="dist/bundle.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Угадай 10 ячеек за отведённое время</h1>
+    </header>
+    <main>
+        <div id="start">
+            <input type="button" id="buttonStart" value="Старт">
+            <input type="button" id="buttonPause" value="Пауза">
+            <input type="datetime" name="" id="timer" value="120">
+            <input type="button" id="buttonReset" value="Сброс">
+        </div>
+        <table class="tablemain" id="noactivetable"></table>
+        <table class="tablemain" id="activetable"></table>
+        <div id="numbermoves"></div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <div>Разработано Влазневым В.В.© </div>
+    </footer>
+
+</body>
+
+</html>

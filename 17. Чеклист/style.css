@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #ccd1d7;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: #b0c7e4;
+}
+
+header h1 {
+    margin: 40px auto;
+}
+
+main {
+    width: 1000px;
+    min-height: 600px;
+    background-color: #cddaeb;
+    text-align: center;
+}
+
+footer {
+    height: 40px;
+}
+
+#mainpage {
+    padding: 40px;
+}
+
+#input,
+#list {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#list {
+    padding: 0;
+    list-style-type: none;
+}
+
+#list span {
+    margin-right: 5px;
+}
+
+#list .remove,
+#list .mark {
+    color: blue;
+    cursor: pointer;
+}
+
+#list .remove:hover,
+#list .mark:hover {
+    text-decoration: underline;
+}
+
+#list .done .task {
+    text-decoration: line-through;
+    color: gray;
+}
